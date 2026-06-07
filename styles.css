@@ -318,7 +318,7 @@ h1 {
 
 .brand-stage {
   position: relative;
-  min-height: 520px;
+  min-height: 560px;
 }
 
 .speed-card,
@@ -332,21 +332,22 @@ h1 {
 }
 
 .speed-card {
-  inset: 48px 0 auto auto;
-  width: min(470px, 100%);
-  padding: 32px;
+  inset: 20px 0 auto auto;
+  width: min(440px, 100%);
+  padding: 24px 28px 28px;
 }
 
 .speed-card img {
   display: block;
-  width: 100%;
+  width: min(74%, 320px);
   height: auto;
+  margin: 0 auto;
   object-fit: contain;
 }
 
 .brand-carousel {
   overflow: hidden;
-  margin-top: 22px;
+  margin-top: 18px;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: #fff;
@@ -395,14 +396,14 @@ h1 {
 
 .route-card {
   left: 8px;
-  bottom: 84px;
+  bottom: 42px;
   width: 230px;
   padding: 18px;
 }
 
 .basket-card {
   right: 18px;
-  bottom: 38px;
+  bottom: 0;
   width: 220px;
   padding: 18px;
 }
@@ -763,7 +764,7 @@ svg {
   }
 
   .brand-stage {
-    min-height: 430px;
+    min-height: 500px;
   }
 
   .speed-card {
@@ -828,11 +829,15 @@ svg {
   }
 
   .brand-stage {
-    min-height: 390px;
+    min-height: 460px;
   }
 
   .speed-card {
     padding: 20px;
+  }
+
+  .speed-card img {
+    width: min(70%, 250px);
   }
 
   .tone-slide {
@@ -841,13 +846,13 @@ svg {
 
   .route-card {
     left: 0;
-    bottom: 70px;
+    bottom: 86px;
     width: 190px;
   }
 
   .basket-card {
     right: 0;
-    bottom: 18px;
+    bottom: 24px;
     width: 190px;
   }
 }
